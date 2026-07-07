@@ -1,5 +1,5 @@
 # Repository Guidelines
-
+####
 ## Project Structure & Module Organization
 
 `workflows/` contains the deployed n8n workflow JSON files and is the main delivery surface. `custom-nodes/n8n-nodes-custom/` contains custom n8n nodes and credentials, including `nodes/` and `credentials/`. `claudeToOpenAIProxy/` holds the Node.js proxy that translates Claude-style requests to Azure OpenAI. `scripts/` contains local build, run, export, and utility helpers. `devops/` contains Terraform configuration, deployment helpers, and operational documentation such as `TRACEABILITY_MATRIX.md`.
